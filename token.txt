@@ -1,0 +1,29 @@
+TOKEN : small unit of the programm is called
+token having 5 components :
+
+1. identifier:  
+
+ rules==
+
+1. it contains  uppercases, lowercases, digits,_
+2. no special characters include
+3. identifiers can start with uppercase, lowecase,_
+4. keywords are not allowed
+5. it is case sensitive 
+ex: (m =10, N=1,AB_ =1
+
+2. operator:
+
+
+3. variables:
+
+rules==
+
+
+
+
+
+4. literals
+5. puncations
+
+another topic are STATEMENTS & COMMENTS
