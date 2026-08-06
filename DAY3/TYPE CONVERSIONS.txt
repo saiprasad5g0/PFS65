@@ -1,0 +1,341 @@
+TYPE CONVERSIONS
+
+
+1. coversion weather possible from one datatype to another
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+a = 10
+a
+10
+float(a)
+10.0
+complex(a)
+(10+0j)
+str (a0
+    d
+     
+SyntaxError: '(' was never closed
+str(a)
+     
+'10'
+bool(a)
+     
+True
+list(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    list(a)
+TypeError: 'int' object is not iterable
+tuple(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    tuple(a)
+TypeError: 'int' object is not iterable
+set(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    set(a)
+TypeError: 'int' object is not iterable
+dict(a0
+j
+     
+SyntaxError: '(' was never closed
+dict(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    dict(a)
+TypeError: 'int' object is not iterable
+float = 3.14
+     
+int(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    int(f)
+NameError: name 'f' is not defined
+f = 3.14
+     
+int(f)
+     
+3
+str(f)
+     
+'3.14'
+complex(f)
+     
+(3.14+0j)
+bool(f)
+     
+True
+list(f0
+     h
+     
+SyntaxError: '(' was never closed
+list(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    list(f)
+TypeError: 'float' object is not iterable
+tuple(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    tuple(a)
+TypeError: 'int' object is not iterable
+set(a)
+     
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    set(a)
+TypeError: 'int' object is not iterable
+dict(a
+     h
+     
+SyntaxError: '(' was never closed
+tuple(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    tuple(f)
+TypeError: 'float' object is not iterable
+set(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    set(f)
+TypeError: 'float' object is not iterable
+dict(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    dict(f)
+TypeError: 'float' object is not iterable
+c = 2=10j
+     
+SyntaxError: cannot assign to literal
+c = 2+10j
+     
+int(c)
+     
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    int(c)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+float(c)
+     
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    float(c)
+TypeError: 'float' object is not callable
+str(C)
+     
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    str(C)
+NameError: name 'C' is not defined. Did you mean: 'c'?
+str(c)
+     
+'(2+10j)'
+
+list(c)
+     
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    list(c)
+TypeError: 'complex' object is not iterable
+tuple(c)
+     
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    tuple(c)
+TypeError: 'complex' object is not iterable
+bool(c)
+     
+True
+set(f)
+     
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    set(f)
+TypeError: 'float' object is not iterable
+dict(c)
+     
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    dict(c)
+TypeError: 'complex' object is not iterable
+## list
+     
+l = [1,2,3,4,5,6]
+     
+int(l0
+    h
+    
+SyntaxError: '(' was never closed
+int(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    int(l)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+float(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    float(l)
+TypeError: 'float' object is not callable
+str(l)
+    
+'[1, 2, 3, 4, 5, 6]'
+complex(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    complex(l)
+TypeError: complex() argument must be a string or a number, not list
+tuple(l)
+    
+(1, 2, 3, 4, 5, 6)
+set(l)
+    
+{1, 2, 3, 4, 5, 6}'
+dict(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#53>", line 1, in <module>
+    dict(l)
+TypeError: object is not iterable
+Cannot convert dictionary update sequence element #0 to a sequence
+bool(l)
+    
+True
+
+    
+l = [1,2,3,4,5,6]
+     
+int(l0
+    h
+    
+SyntaxError: '(' was never closed
+int(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    int(l)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+float(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    float(l)
+TypeError: 'float' object is not callable
+str(l)
+    
+'[1, 2, 3, 4, 5, 6]'
+complex(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    complex(l)
+TypeError: complex() argument must be a string or a number, not list
+tuple(l)
+    
+(1, 2, 3, 4, 5, 6)
+set(l)
+    
+{1, 2, 3, 4, 5, 6}'
+dict(l)
+    
+Traceback (most recent call last):
+  File "<pyshell#53>", line 1, in <module>
+    dict(l)
+TypeError: object is not iterable
+Cannot convert dictionary update sequence element #0 to a sequence
+bool(l)
+    
+True
+File "<pyshell#13>", line 1, in <module>
+    
+SyntaxError: invalid syntax
+
+#string
+    
+s ='srikakulam'
+    
+a = '123456789'
+    
+int(s)
+    
+Traceback (most recent call last):
+  File "<pyshell#60>", line 1, in <module>
+    int(s)
+ValueError: invalid literal for int() with base 10: 'srikakulam'
+int(a)
+    
+123456789
+float(s)
+    
+Traceback (most recent call last):
+  File "<pyshell#62>", line 1, in <module>
+    float(s)
+TypeError: 'float' object is not callable
+float(a)
+    
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    float(a)
+TypeError: 'float' object is not callable
+complex(s)
+    
+Traceback (most recent call last):
+  File "<pyshell#64>", line 1, in <module>
+    complex(s)
+ValueError: complex() arg is a malformed string
+complex(a)
+    
+(123456789+0j)
+bool(a)
+    
+True
+list(s)
+    
+['s', 'r', 'i', 'k', 'a', 'k', 'u', 'l', 'a', 'm']
+list(a)
+    
+['1', '2', '3', '4', '5', '6', '7', '8', '9']
+set(s)
+    
+{'a', 'k', 'u', 'm', 'l', 's', 'i', 'r'}
+set(a0
+    j
+    
+SyntaxError: '(' was never closed
+set(a0
+    lk
+    
+SyntaxError: '(' was never closed
+set(a)
+    
+{'2', '9', '6', '1', '7', '5', '3', '8', '4'}
+dict(a)
+    
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    dict(a)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+#set
+    
+s = { 1,2,3,4,5,6,7,8,9}
+    
+int(s)
+    
+Traceback (most recent call last):
+  File "<pyshell#78>", line 1, in <module>
+    int(s)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'set'
+
