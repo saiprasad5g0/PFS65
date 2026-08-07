@@ -1,0 +1,325 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#Arthemetical operations
+a=10
+b=5
+a+b
+15
+a-b
+5
+a*b
+50
+a*5
+50
+a*10
+100
+a/2
+5.0
+b/2
+2.5
+a+b/2
+12.5
+a//2
+5
+a+b//2
+12
+a%10
+0
+a%b
+0
+a&5
+0
+a+b%5
+10
+a+b%2
+11
+a**10
+10000000000
+a*5
+50
+a**10
+10000000000
+a+b**5
+3135
+# comparitive operators
+a
+10
+a  =10
+b = 5
+a>b
+True
+a<b
+False
+a>=b
+True
+a<=b
+False
+a == b
+False
+a !=b
+True
+a!>b
+SyntaxError: invalid syntax
+#ASSIGNMENT OPERATORS:::::::::::::::::::
+
+ a= 20
+ 
+SyntaxError: unexpected indent
+a = 20
+a = a+10
+a
+30
+a = a+20
+a
+50
+a +=10
+a
+60
+a -=10
+a
+50
+a *=10
+a
+500
+a /= 10
+a
+50.0
+a //= 10
+a
+5.0
+a %= 10
+a
+5.0
+a **= 10
+a
+9765625.0
+a***= 10
+SyntaxError: invalid syntax
+a %=10
+a
+5.0
+a *=10
+a
+50.0
+
+
+# RELATIONAL OPERATORS
+
+email = True
+password = False
+email and password
+False
+login False
+SyntaxError: invalid syntax
+login = False
+display_products = True
+login or display_products
+True
+'a' in 'a,e,i,o,u'
+True
+'p' in 'a,e,i,o,u'
+False
+'s' not in 'a,e,i,o,u'
+True
+2%4 and 3%4
+3
+6+3 == 0 and 4+3== 0
+False
+6+3 == 9 or 4+3 == 0
+True
+6+2 == 10
+False
+not 6+2 == 0
+True
+
+
+
+#MEMBERSHIP OPERATIONS ::::::::::
+
+# STR, LIST, TUPLE, SET, DICT
+
+s 'pthon programming'
+SyntaxError: invalid syntax
+s = 'python programming'
+program in s
+Traceback (most recent call last):
+  File "<pyshell#88>", line 1, in <module>
+    program in s
+NameError: name 'program' is not defined
+'program' in s
+True
+'m' in s
+True
+'rogam' in s
+False
+'rogam' not in s
+True
+'program'
+'program'
+'
+'program' not in s
+False
+l = [1,2,3,4,5]
+2,3 in l
+(2, True)
+[2,3] in l
+False
+\
+1 in l
+True
+2 in l
+True
+s = {'rock','paper','sissor'}
+sissor in s
+Traceback (most recent call last):
+  File "<pyshell#101>", line 1, in <module>
+    sissor in s
+NameError: name 'sissor' is not defined
+'sissor in s
+SyntaxError: unterminated string literal (detected at line 1)
+'sissor' in s
+True
+dict  = {'name': 'sai', 'age': 1,}
+'sai' in dict
+False
+'name' in dict
+True
+'sai' not in dict
+True
+
+
+
+#IDENTITY OPERATION:::::::
+
+
+
+
+l =[1,2,3,4]
+m = [1,2,3,4]
+id(l)
+2227975408576
+id(m)
+2228019744768
+n= m
+n
+[1, 2, 3, 4]
+n in m
+False
+n in l
+False
+m in n
+False
+id (n)
+2228019744768
+n is m
+True
+m is n
+True
+n not in m
+True
+n is not l
+True
+
+
+#BITWISE OPERATOR::::::::
+
+
+# 1. logical 2.
+
+11 & 12
+8
+11 | 12
+15
+11 ^ 12
+7
+11 ~ 12
+SyntaxError: invalid syntax
+~ 12
+-13
+11 << 12
+45056
+11 >> 12
+0
+2 >> 4
+0
+2<<4
+32
+
+
+# OUTPUT OPERATORS::::::::::
+
+a = 10
+b = 3.14
+c = 'python'
+print(a,b,c)
+10 3.14 python
+print ("a=", a, "b=", b, "c=", c)
+a= 10 b= 3.14 c= python
+print ("a=", a, "b=", b, "c=", c, sep = '')
+a=10b=3.14c=python
+print ("a=", a, "b=", b, "c=", c, sep = '\n ')
+a=
+ 10
+ b=
+ 3.14
+ c=
+ python
+print ("a=", a, "b=", b, "c=", c, sep = '\n      ')
+a=
+      10
+      b=
+      3.14
+      c=
+      python
+print ("a=", a, "b=", b, "c=", c, sep = '\t')
+a=	10	b=	3.14	c=	python
+print ("a=", a, "b=", b, "c=", c, sep = '\t',end ='\n\n')
+a=	10	b=	3.14	c=	python
+
+print ("a=", a,'\n'   "b=", b,'\n' "c=", c,'\n')
+a= 10 
+b= 3.14 
+c= python 
+
+>>> print(f'a = {a} b={b} c= {c}')
+a = 10 b=3.14 c= python
+>>> 
+>>> 
+>>> 
+>>> 
+>>> #MODULO OPERATIONS
+>>> 
+>>> print('a=%d b=%f c=%s')
+a=%d b=%f c=%s
+>>> print('a=%d b=%f c=%s'(a,b,c))
+Traceback (most recent call last):
+  File "<pyshell#168>", line 1, in <module>
+    print('a=%d b=%f c=%s'(a,b,c))
+TypeError: 'str' object is not callable
+>>> print('a=%d b=%f c=%s%(a,b,c))
+...       
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print('a=%d b=%f c=%s'%(a,b,c))
+...       
+a=10 b=3.140000 c=python
+>>> print(f'a = {} b={} c= {}'.format(a,b,c))
+...       
+SyntaxError: f-string: valid expression required before '}'
+>>> print('a = {} b={} c= {}'.format(a,b,c))
+...       
+a = 10 b=3.14 c= python
+>>> print('a = {b} b={a} c= {c}'.format(a,b,c))
+...       
+Traceback (most recent call last):
+  File "<pyshell#173>", line 1, in <module>
+    print('a = {b} b={a} c= {c}'.format(a,b,c))
+KeyError: 'b'
+>>> print('a = {} b={} c= {}'.format(c,b,a))
+...       
+a = python b=3.14 c= 10
+>>> print('a = {2} b={1} c= {0}'.format(a,b,c))
+...       
+a = python b=3.14 c= 10
+>>> print('a = {1} b={0} c= {2}'.format(a,b,c))
+...       
+a = 3.14 b=10 c= python
