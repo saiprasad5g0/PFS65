@@ -1,0 +1,15 @@
+product = input("Enter the product you want to search: ")
+size = input("Enter your size: ")
+colour = input("Enter the colour: ")
+price = float(input("Enter the product price: "))
+print("\nProduct Details")
+print("Product:", product)
+print("Size:", size)
+print("Colour:", colour)
+print("Price: ₹", price)
+add_to_bag = input("\nAdd products to bag?(yes/no): ").lower()
+if add_to_bag == "yes":
+    print("\nProduct added to your bag.")
+    print("Order amount: ₹", price)
+else:
+    print("\nProduct was not added to your bag.")
