@@ -1,0 +1,32 @@
+CONDITIONAL STATEMENTS:
+___________________________:
+4 CONDITIONAL STATEMENTS
+
+1.simpleif:
+
+syntax: if condition:
+            #statement
+
+2.if else:
+
+syntax: if condition
+            #statement true
+        else:
+            #statement false
+
+3.elif ladder:
+
+syntax: if condition:
+            #STATEMENTS
+        elif condition2:
+            #statement2:
+        elif condition3:
+            #statement3
+        else:(optinal)
+            #statement
+
+4.nestedif
+
+syntax: if condition1:
+            if condition2:
+                #statement
