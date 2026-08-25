@@ -1,0 +1,151 @@
+#for B
+'''n = int(input("Enter the size: "))
+for i in range(n):
+    for j in range(n):
+        if i==0 or j==0 or i==n-1 or j==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+#for E
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(m):
+        if i==0 or j==0 or i==n-1 or j==n-1 or i ==m:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''    
+
+#for F
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(m):
+        if i==0 or j==0 or i ==m:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+#for C
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(m):
+        if i==0 or j==0 or i ==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+#for G
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if i==0 or j==0 or i== n-1 or(j==n-1 and i>=m)or(i==m and j>=m):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+#for I
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if i==0 or i== n-1 or j==m:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+#for Z
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if i==0 or i== n-1 or i+j==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+#for X
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if i==j or i+j==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+
+#for Y
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if (i==j and i<=m) or i+j==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+#for K
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if j == 0 or (i==m and j<=m) or(i==j and j>=m)or(i+j==n-1 and i<=m):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+#for R
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if i==0 or j == 0 or (i==m and j<=m) or(i==j and j>=m)or(i+j==n-1 and i<=m):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+
+# for M
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if j == 0 or j ==n-1 or (i==j and i<=m) or(i+j==n-1 and i<=m):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+#for W
+'''n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if j == 0 or j ==n-1 or (i==j and i>=m) or(i+j==n-1 and i>=m):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+
+#for V
+n = int(input("Enter the size: "))
+m = n//2
+for i in range(n):
+    for j in range(n):
+        if (j==0 and i<=m) or (j==n-1 and i<=m) or (i-j==m) or((i+j)==m+n-1):
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()
