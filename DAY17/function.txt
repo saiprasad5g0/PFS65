@@ -1,0 +1,68 @@
+WHAT IS FUNTION:
+
+A function in Python is a reusable block of code that performs a specific task.
+
+Instead of writing the same code again and again, we can write it once inside a function and call it whenever we need it.
+2TYPES 
+1.build-in function
+2.user defined function
+
+SYNTAX:
+
+def funtion_name(): (# code to perform task)
+
+
+
+ADVANTAGES OF FUNCTIONS:
+
+
+Code Reusability
+Write the code once and use it many times.
+Reduces Code Duplication
+Avoid writing the same code repeatedly.
+Easy to Understand
+Large programs can be divided into smaller, meaningful functions.
+Easy to Debug
+If there is an error, we can check the particular function.
+Easy to Maintain
+Changes can be made in one place instead of changing the same code everywhere.
+Saves Time
+Functions make programming faster and more efficient.
+
+
+
+
+#EXAMPLE:
+
+Instagram has many different actions, such as:
+
+Login
+Upload a photo
+Like a post
+Comment
+Follow a user
+Send a message
+
+In programming, each action can be represented by a function.
+
+Example: Instagram Like Function
+
+Suppose we want to create a function for liking a post:
+
+#CODE:
+def like_post(username, post):
+    print(username, "liked", post)
+
+like_post("Sai", "My New Photo")
+like_post("Rahul", "Travel Photo")
+
+Output:
+
+Sai liked My New Photo
+Rahul liked Travel Photo
+
+Here:
+
+like_post() → function
+username and post → parameters
+like_post("Sai", "My New Photo") → function call
